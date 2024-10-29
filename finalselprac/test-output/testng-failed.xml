@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.ListenerImp"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="testing.Contact_WIth_Org">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="connectToDb"/>
+          <include name="testContactWithOrg"/>
+          <include name="login"/>
+          <include name="closeConnection"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testing.Contact_WIth_Org -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

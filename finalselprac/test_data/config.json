@@ -1,0 +1,7 @@
+{
+	"browser" : "chrome",
+	"un" : "admin",
+	"pwd" : "admin",
+	"url"  : "http://localhost:8888"
+	
+}
